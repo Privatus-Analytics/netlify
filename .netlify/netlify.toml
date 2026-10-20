@@ -1,0 +1,40 @@
+functionsDirectory = "/Users/james/projects/analytics/web/integrations/netlify/src/endpoints"
+functionsDirectoryOrigin = "config"
+headers = []
+redirects = []
+
+[dev]
+command = "netlify-extension dev"
+port = 8989.0
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "config"
+package = "@netlify/netlify-plugin-netlify-extension"
+
+[plugins.inputs]
+
+[build]
+publish = "/Users/james/projects/analytics/web/integrations/netlify/.ntli/site/static"
+publishOrigin = "config"
+commandOrigin = "inline"
+base = "/Users/james/projects/analytics/web/integrations/netlify"
+command = "vite build"
+functions = "/Users/james/projects/analytics/web/integrations/netlify/src/endpoints"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

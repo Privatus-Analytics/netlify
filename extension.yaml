@@ -1,0 +1,11 @@
+config:
+  slug: privatus-analytics
+  name: Privatus Analytics
+  description: Adds the cookieless Privatus Analytics tracking script to your project's pages at build time.
+  scopes:
+    site:
+      - read
+  ui:
+    surfaces:
+      - extension-team-configuration
+      - extension-top-level-site-configuration

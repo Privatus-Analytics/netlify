@@ -1,0 +1,9 @@
+node_modules/
+.ntli/
+dist/
+.secrets/
+.DS_Store
+SUBMISSION.md
+.env
+.env.local
+coverage/
