@@ -1,5 +1,32 @@
 # Privatus Analytics for Netlify
 
+**Real visitor numbers for your Netlify site. No cookies, no cookie pop-up, no bots.**
+
+You want to know if people visit your Netlify site. But Google Analytics uses
+cookies, so in many countries you must show a cookie pop-up first (the box that
+asks visitors to say yes to cookies). Many people click no, so they never show
+up in your numbers. Bots add fake visits on top.
+
+This Netlify extension adds the Privatus Analytics script to every page when
+your site builds. Give your project its site id once, and every deploy has the
+script. A failure never stops a deploy. The script sets no cookies and keeps no
+IP addresses. Bots are filtered out before they are counted.
+
+So you see how many real people came, which pages they looked at and where they
+came from, on one simple dashboard. A report comes to your inbox each week, and
+you can set alerts for when traffic jumps or drops. And you don't need a cookie
+pop-up for your analytics.
+
+**Free plan, no card:** 10,000 events a month (an event is a page view or an action you track) on up to 3 sites. [Start free at privatusanalytics.com](https://privatusanalytics.com).
+
+- **No cookies.** No cookies and no hidden IDs on your visitors' devices, and no IP
+  addresses are kept. Laws differ by country, so check your own legal advice.
+- **Real people, not bots.** Known bots, data centers and spam visits are left
+  out on every plan.
+- **Small and fast.** The script is about 3 KB when compressed.
+
+## About this repo
+
 A [Netlify SDK](https://developers.netlify.com/sdk/) extension that adds the
 [Privatus Analytics](https://privatusanalytics.com) tracking script to a project's pages at build
 time. Install it on a team, give a project its site ID, and every deploy ships with the script.
