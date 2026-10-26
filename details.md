@@ -29,7 +29,7 @@ Prefer a file? Add this to `netlify.toml` instead and skip the screen:
 
 ```toml
 [[integrations]]
-  name = "privatus-analytics"
+  name = "adwjt60k-privatus-analytics"
   [integrations.config]
     siteId = "pa_YOURSITEID"
 ```

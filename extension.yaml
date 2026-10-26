@@ -1,5 +1,5 @@
 config:
-  slug: privatus-analytics
+  slug: adwjt60k-privatus-analytics
   name: Privatus Analytics
   description: Adds the cookieless Privatus Analytics tracking script to your project's pages at build time.
   scopes:

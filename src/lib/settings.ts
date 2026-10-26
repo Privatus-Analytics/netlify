@@ -6,7 +6,7 @@ import { z } from "zod";
  * A project's settings come from up to three places, later ones win:
  *   1. the team defaults (Extensions, Privatus Analytics, Configuration)
  *   2. the project settings (Project configuration, Privatus Analytics)
- *   3. netlify.toml, under [[integrations]] with name "privatus-analytics"
+ *   3. netlify.toml, under [[integrations]] with name "adwjt60k-privatus-analytics"
  *
  * The extension only acts on a project that has a site ID from layer 2 or 3.
  */

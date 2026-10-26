@@ -50,7 +50,7 @@ project's own public home page to look for the script.
     script button loads the published home page and reports whether the script is there and whether the
     site ID matches.
   - Extensions, Privatus Analytics, Configuration: team defaults for everything except the site ID.
-- **`netlify.toml`** works instead of the screens: `[[integrations]]`, `name = "privatus-analytics"`,
+- **`netlify.toml`** works instead of the screens: `[[integrations]]`, `name = "adwjt60k-privatus-analytics"`,
   `[integrations.config]` with `siteId` and the same options. It wins over the screens.
 - **Contexts.** Production is always tracked. Deploy Previews and branch deploys only when turned on.
   Local builds and `netlify dev` are never tracked.
